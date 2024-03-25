@@ -1,4 +1,4 @@
-# Create your own Signed Arch Linux Repository
+# Create your own Signed Arch Linux Repository  The Script doesn't Work Soory
 
 ## Contents
 
