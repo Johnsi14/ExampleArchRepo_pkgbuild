@@ -1,0 +1,19 @@
+# RefinedArch
+# https://github.com/Johnsi14/RefinedArch
+
+# shellcheck disable=SC2148
+pkgname=refined-mirrorlist
+destdir="/etc/pacman.d"
+pkgver=1
+pkgrel=2
+pkgdesc="RefinedArch mirrorlist "
+arch=('any')
+url='https://github.com/Johnsi14/RefinedArch'
+license=('GPL3')
+source=('refined-mirrorlist')
+sha512sums=('SKIP')
+
+package() {
+	install -dm755 ${pkgdir}${destdir}
+	cp -r ${srcdir}/refined-mirrorlist ${pkgdir}${destdir}
+}
